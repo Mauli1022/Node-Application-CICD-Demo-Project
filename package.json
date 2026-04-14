@@ -1,0 +1,17 @@
+{
+  "name": "cicd-demo-project",
+  "version": "1.0.0",
+  "description": "This is my cicd pipeline demo project",
+  "license": "ISC",
+  "author": "Dnyaneshwar Palke",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/index.js"
+  },
+  "dependencies": {
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1"
+  }
+}
