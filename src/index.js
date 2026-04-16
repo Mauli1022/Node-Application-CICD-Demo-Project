@@ -16,6 +16,14 @@ app.get("/",(req,res)=>{
         `
     )
 })
+app.get("/message",(req,res)=>{
+    res.send(
+        `
+        <h1>This is my New Route Which Gives us Message Hello World</h1>
+        `
+    )
+})
+
 
 
 
