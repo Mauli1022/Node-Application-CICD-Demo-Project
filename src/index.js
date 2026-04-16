@@ -32,6 +32,13 @@ app.get("/login-in",(req,res)=>{
     )
 })
 
+app.get("/login-out",(req,res)=>{
+    res.send(
+        `
+        <h1>Log Out User.</h1>
+        `
+    )
+})
 
 
 app.listen(PORT,()=>{
